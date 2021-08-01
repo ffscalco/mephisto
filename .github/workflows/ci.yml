@@ -111,12 +111,12 @@ jobs:
         bin/rails db:create
         bin/rails db:migrate
       env:
-        DATABASE_URL: postgres://postgres:postgres@localhost:5432/wanderer-coffee-api_test
+        DATABASE_URL: postgres://postgres:postgres@localhost:5432/mephisto_test
         RAILS_ENV: test
 
     - name: Rspec
       env:
-        DATABASE_URL: postgres://postgres:postgres@localhost:5432/wanderer-coffee-api_test
+        DATABASE_URL: postgres://postgres:postgres@localhost:5432/mephisto_test
         RAILS_ENV: test
       run: |
         bundle exec rails db:migrate

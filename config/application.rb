@@ -36,6 +36,6 @@ module Mephisto
     config.middleware.use Rack::MethodOverride
     config.middleware.use ActionDispatch::Flash
 
-    config.time_zone = 'Australia/Brisbane'
+    config.time_zone = "Australia/Brisbane"
   end
 end

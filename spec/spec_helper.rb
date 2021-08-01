@@ -1,7 +1,7 @@
-if ENV['coverage'] == 'on'
-  require 'simplecov'
+if ENV["coverage"] == "on"
+  require "simplecov"
 
-  SimpleCov.start 'rails' do
+  SimpleCov.start "rails" do
     # minimum_coverage 30
   end
 end

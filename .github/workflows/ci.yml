@@ -87,7 +87,7 @@ jobs:
 
     - name: Copy config
       run: |
-        cp .env.example .env
+        cp .env.sample .env
     - name: Install bundler
       run: gem install bundler
 

@@ -18,6 +18,9 @@ To run this project you need to have:
 
 1. Make sure you have the correct permissions on the script files: `chmod +x scripts/*.bash`
 2. Install the hooks: `./scripts/install-hooks.bash`
+3. Run assets:
+  - `rails assets:clobber`
+  - `rails webpacker:compile`
 
 ## Things the project have
 

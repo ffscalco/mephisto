@@ -5,4 +5,4 @@ set -e
 cd "${0%/*}/.."
 
 echo "Running tests"
-bundle exec rspec COVERAGE=on
+COVERAGE=on bundle exec rspec
